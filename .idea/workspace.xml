@@ -124,6 +124,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
@@ -147,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597209117091</updated>
       <workItem from="1597209118519" duration="3559000" />
-      <workItem from="1597225127687" duration="1115000" />
+      <workItem from="1597225127687" duration="4309000" />
     </task>
     <servers />
   </component>
@@ -159,5 +160,13 @@
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
     <state x="1134" y="306" width="412" height="235" key="#Composer/53.27.1867.1053@53.27.1867.1053" timestamp="1597225177634" />
+    <state x="2293" y="339" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597265118835">
+      <screen x="0" y="339" width="3280" height="741" />
+    </state>
+    <state x="2293" y="339" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.339.3280.741@0.339.3280.741" timestamp="1597265118835" />
+    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597264810780">
+      <screen x="0" y="339" width="3280" height="741" />
+    </state>
+    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.339.3280.741@0.339.3280.741" timestamp="1597264810780" />
   </component>
 </project>
