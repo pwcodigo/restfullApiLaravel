@@ -17,6 +17,19 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::namespace('API')->name('api.')->group(function(){
-    Route::get('/products','ProductController@index')->name('products');
+
+/*
+ * Posso fazer de duas formas colocar  ->name('api.') aqui ou então no final. Observe outro exemplo
+ * tira ->name('api.') e acrescenta no final ->name('api.products');
+ */
+Route::namespace('Api')->name('api.')->group(function(){
+    Route::prefix('products')->group(function() {
+        Route::get('/','ProductController@index')->name('products');
+        Route::get('/{id}','ProductController@show')->name('single_products');
+
+    });
 });
+
+/*
+
+/

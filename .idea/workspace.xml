@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de41fe3d-4987-433f-b6f7-ece80ee8913d" name="Default Changelist" comment="" />
+    <list default="true" id="de41fe3d-4987-433f-b6f7-ece80ee8913d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/binlog.000011" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/binlog.000011" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ca-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ca-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/client-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/client-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/server-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/server-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/undo_002" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/app/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -17,6 +45,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -119,6 +150,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fz7YiTJygUcDAASfW6LpEK1hXV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -148,7 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597209117091</updated>
       <workItem from="1597209118519" duration="3559000" />
-      <workItem from="1597225127687" duration="6069000" />
+      <workItem from="1597225127687" duration="7230000" />
+      <workItem from="1597329351241" duration="304000" />
+      <workItem from="1597452906727" duration="739000" />
+      <workItem from="1597490344799" duration="2099000" />
+      <workItem from="1598367052012" duration="1747000" />
+      <workItem from="1598386457600" duration="2382000" />
     </task>
     <servers />
   </component>
@@ -164,9 +201,9 @@
       <screen x="0" y="339" width="3280" height="741" />
     </state>
     <state x="2293" y="339" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.339.3280.741@0.339.3280.741" timestamp="1597265118835" />
-    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597264810780">
+    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597267368677">
       <screen x="0" y="339" width="3280" height="741" />
     </state>
-    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.339.3280.741@0.339.3280.741" timestamp="1597264810780" />
+    <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.339.3280.741@0.339.3280.741" timestamp="1597267368677" />
   </component>
 </project>
