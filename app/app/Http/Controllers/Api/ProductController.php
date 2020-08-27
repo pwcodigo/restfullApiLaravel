@@ -32,7 +32,7 @@ namespace App\Http\Controllers\Api {
              */
 
             //$data = ['data'=> $this->product->paginate(5)];
-            return response()->json($this->product->paginate(11));
+            return response()->json($this->product->paginate(10));
 
         }
 
@@ -55,7 +55,7 @@ namespace App\Http\Controllers\Api {
                 if(config('app.debug')){
                     return response()->json(ApiError::errorMessage($e->getMessage(), 1010));
                 }
-                    return response()->json(ApiError::errorMessage('Houve error ao realizar a operação', 1010));
+                    return response()->json(ApiError::errorMessage('Houve error ao criar', 1010));
             }
         }
 
@@ -72,9 +72,25 @@ namespace App\Http\Controllers\Api {
 
             } catch (\Exception $e) {
                 if(config('app.debug')){
-                    return response()->json(ApiError::errorMessage($e->getMessage(),1010));
+                    return response()->json(ApiError::errorMessage($e->getMessage(),1011));
                 }
-                    return response()->json(ApiError::errorMessage('Houve um erro ao realizar conexão', 1010));
+                    return response()->json(ApiError::errorMessage('Houve um erro ao realizar ao atualizar', 1011));
+            }
+        }
+        /*
+         *  Product $id isso é chamado de indução de tipo
+         */
+        public function delete(Product $id)
+        {
+            try{
+                $id->delete();
+                return response()->json(['data' => ['msg' => 'Produto:'.$id->name.' removido com sucesso!']],200);
+            }catch (\Exception $e){
+                if(config('app.config'))
+                {
+                    return response()->json(ApiError::errorMessage($e->getMessage(),1012));
+                }
+                    return response()->json(ApiError::errorMessage('Houve erro ao deletar',1012));
             }
         }
     }
