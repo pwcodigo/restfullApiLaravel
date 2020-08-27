@@ -1,9 +1,17 @@
 #Sobre o projeto
 
-Criando uma API RESTFULL com laravel.
+Criando uma API RESTFULL com laravel. Funcionando o básico para
+exibição de todos, por id, criação, atualização e exclusão de produtos. Sem autenticação
+por enquanto.
+
+Foi gerado um seed de até 10 produtos, para mais informações, só ir na pasta
+factories e seeds para configurar e gerar mais do que 10 produtos.
+
+#Material de Apoio
+[LINK DA AULA](https://www.youtube.com/watch?v=oVRWQJE5a1c&t=2583s)
 
 # Sobre o código
- * Laravel 6.0
+ * Laravel 6.18.35
  * nginx:1.17.10-alpine
  * php:7.4-fpm-alpine
  * redis:alpine
