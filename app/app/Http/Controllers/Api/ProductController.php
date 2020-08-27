@@ -30,6 +30,7 @@ namespace App\Http\Controllers\Api {
              * Fazer uma pagina com os dados vindo da API
              */
 
+            $data = ['data'=> $this->product->paginate(5)];
             return response()->json($data);
 
         }
