@@ -4,7 +4,6 @@
     <list default="true" id="de41fe3d-4987-433f-b6f7-ece80ee8913d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1597490344799" duration="2099000" />
       <workItem from="1598367052012" duration="1747000" />
       <workItem from="1598386457600" duration="2785000" />
-      <workItem from="1598501063518" duration="7624000" />
+      <workItem from="1598501063518" duration="8777000" />
     </task>
     <servers />
   </component>
@@ -186,6 +185,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1792" y="487" width="363" height="147" key="NewPhpFileDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1598506695160" />
+    <state x="2015" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1598512266451">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2015" y="257" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1598512266451" />
     <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597267368677">
       <screen x="0" y="339" width="3280" height="741" />
     </state>

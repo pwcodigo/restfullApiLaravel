@@ -36,10 +36,37 @@ namespace App\Http\Controllers\Api {
 
         }
 
+        /* Maneira uma de se fazer
         public function show(Product $id)
         {
-            $data = ['data' => $id];
-            return response()->json($data);
+            try{
+                $data = ['data' => $id];
+                return response()->json($data,201);
+
+            }catch(\Exception $e){
+                if(config('app.debug'))
+                {
+                    return response()->json(ApiError::errorMessage($e->getMessage(),1009));
+                }
+                    return response()->json(ApiError::errorMessage('Erro ao exibir o produto',1009));
+            }
+        }
+        */
+
+        public function show($id)
+        {
+            try{
+                $product = $this->product->find($id);
+                if(! $product) return response()->json(['data' => ['msg' => 'Produto não encontrado']], 404);
+                $data = ['data' => $product];
+                return response()->json($data, 201);
+            }catch(\Exception $e){
+                if(config('app.debug'))
+                {
+                    return response()->json(ApiError::errorMessage($e->getMessage(),1009));
+                }
+                return response()->json(ApiError::errorMessage('Erro ao exibir o produto',1009));
+            }
         }
 
         public function store(Request $request)
