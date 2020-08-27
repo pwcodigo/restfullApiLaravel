@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de41fe3d-4987-433f-b6f7-ece80ee8913d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/app/API/ApiError.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Http/Controllers/Api/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/#ib_16384_0.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/binlog.000025" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/binlog.000025" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/laravel/products.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/laravel/products.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/dbdata/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/docker/dbdata/undo_002" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +171,7 @@
       <workItem from="1597490344799" duration="2099000" />
       <workItem from="1598367052012" duration="1747000" />
       <workItem from="1598386457600" duration="2785000" />
-      <workItem from="1598501063518" duration="1862000" />
+      <workItem from="1598501063518" duration="4160000" />
     </task>
     <servers />
   </component>
@@ -180,6 +191,10 @@
       <screen x="0" y="339" width="3280" height="741" />
     </state>
     <state x="2293" y="339" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.339.3280.741@0.339.3280.741" timestamp="1597265118835" />
+    <state x="1792" y="487" width="363" height="147" key="NewPhpFileDialog" timestamp="1598506695160">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1792" y="487" width="363" height="147" key="NewPhpFileDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1598506695160" />
     <state x="2351" y="623" width="540" height="170" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597267368677">
       <screen x="0" y="339" width="3280" height="741" />
     </state>

@@ -27,6 +27,7 @@ Route::namespace('Api')->name('api.')->group(function(){
         Route::get('/','ProductController@index')->name('products');
         Route::get('/{id}','ProductController@show')->name('single_products');
 
+        Route::post('/','ProductController@store')->name('store_products');
     });
 });
 

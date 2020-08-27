@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api {
 
+    use App\API\ApiError;
     use App\Http\Controllers\Controller;
     use App\Product;
     use http\Env\Response;
@@ -31,7 +32,7 @@ namespace App\Http\Controllers\Api {
              */
 
             //$data = ['data'=> $this->product->paginate(5)];
-            return response()->json($this->product->paginate(5));
+            return response()->json($this->product->paginate(11));
 
         }
 
@@ -39,6 +40,24 @@ namespace App\Http\Controllers\Api {
         {
             $data = ['data' => $id];
             return response()->json($data);
+        }
+
+        public function store(Request $request)
+        {
+            //dd($request->all());
+            // Aqui poderia fazer verificacoes das informacoes que vem do resquest depois aprendo fazer isso
+            try{
+                $productData = $request->all();
+                $this->product->create($productData);
+                return response()->json(['msg' => 'Produto criado com sucesso!'],201);
+            } catch(\Exception $e){
+                if(config('app.debug')){
+                    return response()->json(ApiError::errorMessage($e->getMessage(), 1010));
+                }
+                    return response()->json(ApiError::errorMessage('Houve error ao realizar a operação', 1010));
+            }
+
+
         }
     }
 }
