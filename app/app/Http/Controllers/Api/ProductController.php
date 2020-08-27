@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Api {
 
     use App\Http\Controllers\Controller;
     use App\Product;
+    use http\Env\Response;
     use Illuminate\Http\Request;
 
 
@@ -24,12 +25,19 @@ namespace App\Http\Controllers\Api {
 
         public function index()
         {
-            return $this->product->all();
+            //$data = ['data' => $this->product->all()];
+            /*
+             * Fazer uma pagina com os dados vindo da API
+             */
+
+            return response()->json($data);
+
         }
 
         public function show(Product $id)
         {
-            return $id;
+            $data = ['data' => $id];
+            return response()->json($data);
         }
     }
 }
